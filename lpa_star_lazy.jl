@@ -289,7 +289,7 @@ end
 
 clean_frames()
 run_sim(start, goal, w, h, object_defs, timelimit, lazy_toggle)
-run(`ffmpeg -framerate 24 -i ./frames/step%d.png -pix_fmt yuv420p lpa_star_output.mp4`)
+run(`ffmpeg -framerate 24 -i ./frames/step%d.png -pix_fmt yuv420p videos/lpa_star_output.mp4`)
 
 
 

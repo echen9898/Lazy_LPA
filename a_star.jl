@@ -151,7 +151,7 @@ end
 
 clean_frames()
 run_sim(start, goal, w, h, object_defs)
-run(`ffmpeg -framerate 24 -i ./frames/step%d.png -pix_fmt yuv420p a_star_output.mp4`)
+run(`ffmpeg -framerate 24 -i ./frames/step%d.png -pix_fmt yuv420p videos/a_star_output.mp4`)
 
 
 
