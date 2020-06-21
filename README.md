@@ -4,7 +4,7 @@ A summer project implementing [A*](https://en.wikipedia.org/wiki/A*_search_algor
 
 ## Running it
 
-1) Make sure you have Julia installed: https://julialang.org/
+1) Make sure you have [Julia](https://julialang.org/) installed
 
 2) Create a 'frames' directory in the main directory. Static images will be saved here, and then combined into a video using ffmpeg.
 
@@ -21,7 +21,7 @@ julia lpa_star_lazy.jl
 ## Cool things to try!
 
 - Implement a dynamic lookahead distance that changes based on how chaotic or unpredictable the environment is
-- Incorporate side by side planning/execution/world dynamics using parallel computing: https://docs.julialang.org/en/v1/manual/parallel-computing/
+- Incorporate side by side planning/execution/world dynamics using [parallel computing in Julia](https://docs.julialang.org/en/v1/manual/parallel-computing/)
 - Add more obstacle types and behaviors!
 
 ## Bugs
