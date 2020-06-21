@@ -1,6 +1,6 @@
 # Lazy LPA*
 
-A summer project implementing A*, LPA* (https://www.cs.cmu.edu/~maxim/files/aij04.pdf), and a homemade lazy variant of LPA* in Julia. Demo videos included in the 'videos' directory.
+A summer project implementing A*, [LPA*](https://www.cs.cmu.edu/~maxim/files/aij04.pdf), and a homemade lazy variant of LPA* in Julia. Demo videos included in the 'videos' directory.
 
 ## Running it
 
